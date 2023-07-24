@@ -1,0 +1,20 @@
+
+# File Processing
+ 
+file = open("Coding.txt", "r") 
+print(file.read())
+# file.read() akan menghasilkan output yang ada di filenya
+file = open("Coding.txt", "w") # melakukan open suatu file
+file.write(" Ini adalah Text Baru") # Untuk menulis suatu text di dalam file
+file.close() # Untuk berhenti menambahkan suatu text baru khusus untuk function write
+file = open("Coding.txt", "a")
+file.write(" Hai hai haloo untuk penambahan") # untuk append suatu file atau menambahkan kalimat di dalam suatu file
+#file.write("\nHai hai haloo untuk penambahan") # menambahkan kata di New line atau baris baru di dalam suatu file
+#file.close()
+
+
+import math
+
+z = 18
+
+print(math.sqrt(z))

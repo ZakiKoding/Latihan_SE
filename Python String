@@ -1,0 +1,44 @@
+# Function List 
+
+listExample = [56, 'python', 2.98, 90]
+print(listExample)
+listExample.insert(1, "Welcome to python")
+listExample.append('data science')
+listExample.remove(2.98)
+listExample.pop()
+print (listExample)
+
+
+if 80 in listExample:
+    print("Angka 80 ada di listExample")
+
+listExample = [30,40,45,75,80]
+listExample.reverse()
+listExample.sort()
+print(listExample.index(75))
+print(listExample)
+
+ListExample= [30,70,100,40,80]
+ListExample2 = ListExample.copy()
+ListExample2[1]= 65
+print(ListExample)
+print(ListExample2)
+
+ListExample1= [30,70,100,40,80]
+ListExample2 = [34,63]
+ListExample1.extend(ListExample2)
+print(ListExample1)
+
+listExample = [20,40,45,75,80]
+for angka in listExample:
+    if angka % 15 == 0:
+        print(angka)
+
+
+
+
+
+
+
+
+ 
