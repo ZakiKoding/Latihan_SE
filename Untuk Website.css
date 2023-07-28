@@ -1,0 +1,56 @@
+nav { display: flex;
+      align-items: flex-end  ;
+    border: 3px ridge rgb(16, 196, 220);
+    background-color: black;
+    justify-content: flex-end;
+    align-content: center;
+    box-sizing: content-box;
+}
+
+nav > div{
+    width: 200px;
+    color:  rgb(16, 196, 220);
+    background-color: black;
+    border: 3px outset white;
+    align-items: center ;
+    padding-left: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+body { background-color: black;
+        ;}
+head { height: 50px;}
+
+.Judul { color: aqua;
+        font-style: times new roman;
+        border: 3px outset white;
+
+}
+.Isi { color: aqua;
+        font-style: times new roman;
+        border: 3px outset white;
+}
+table { margin-right: 130px;}
+
+.Nama { 
+        color: aqua;
+        font-size: 17px;}
+.Umur { color: aqua;
+        font-size: 
+        17px;}
+p { color: aqua;
+    font-style: initial;
+    font-size:17px;}
+.Kuliah {color: aqua;
+    font-style: initial}
+.Sekolah {color: aqua;
+    font-style: initial;}
+.Pesan {color: aqua;
+        justify-content: start; flex: 1;
+        width: 400px;
+        height: 360px;}
+table { margin-bottom: 500px;
+        float: left;
+        padding: 10px;}
+.Edit_Posisi {justify-content: space-between;
+              margin-top:space-around}

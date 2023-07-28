@@ -1,0 +1,17 @@
+.Container {
+    border: 5px solid white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Container > div {
+    padding: 5 px;
+    text-align: end ;
+    font-size: 100%;
+    color:black;
+    border: 5px;
+    background-color: aqua;
+    margin-left: 3px;
+}
+
+.h2{ justify-content: center;}

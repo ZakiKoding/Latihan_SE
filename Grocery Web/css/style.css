@@ -1,0 +1,46 @@
+/* Header Section*/
+#HeaderNavigasi 
+{ display: flex;
+  justify-content: space-between;
+    border: 2px solid black;}
+
+#Navigasi 
+{ display: flex;
+  gap: 10px;  
+  background-color: brown;}
+
+#Header_title 
+{   display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+/* Main Section*/
+
+#Panggilan_Biase 
+{display: flex;
+gap: 40px;
+margin-top: 5% ;}
+
+article {
+    display: flex;
+    flex-basis: 50%;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;}
+
+#Form {display: flex;
+        flex-direction: column;
+       gap : 10px;
+        border : 2px solid black;
+        border-radius: 20px;
+        flex-basis:50% ;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px;
+        background-color: brown;
+        color: black;}
+
+.Subtittle {font-size: 16px;}
+
+.Kontakeun {font-size: 36px;}
+
