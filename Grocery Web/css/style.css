@@ -23,14 +23,14 @@ margin-top: 5% ;}
 
 article {
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 60%;
     border: 2px solid black;
     justify-content: center;
     align-items: center;}
 
 #Form {display: flex;
         flex-direction: column;
-       gap : 10px;
+        flex-basis: 50% ;
         border : 2px solid black;
         border-radius: 20px;
         flex-basis:50% ;
@@ -44,3 +44,4 @@ article {
 
 .Kontakeun {font-size: 36px;}
 
+section {margin-top: 10px;}

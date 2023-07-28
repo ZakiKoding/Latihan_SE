@@ -26,18 +26,19 @@
         <br>  
         </main>
 <main>
-        <section style="display:block; flex-direction: row;">
-        <div class1 style="justify-content: flex-start; align-items: flex-start;">
+    <section class="coba" style="display:flex; flex-direction: row;">
+        <article>
+        <div style="justify-content: flex-start; align-items: flex-start;">
             <form  action="https://www.google.com/" method="post">
                 <label class="Nama" for=" Nama :">Nama : </label>
-                <input id="Nama :" type = "varchar(50)"/>
+                <input id="Nama :" type = "text"/>
+                <br>
                 <br>
                 <label class= "Umur" for= "Umur : "> Umur : </label>
                 <input id="Umur" type = "number" min ="1" Max ="35"/>
             </form>
         </div>
             <br>  
-        </main> 
         <div style="margin: bottom 10px; ;">
         <p><b>Masih Sekolah atau Kuliah nih?</b></p>
         <input type="radio" id="Sekolah" name="Favoritmu" Value ="Sekolah"/>
@@ -45,9 +46,9 @@
 
         <input type="radio" id="Kuliah" name="Favoritmu" Value ="Kuliah"/>
         <label class ="Kuliah" for="Kuliah">Kuliah</label>
+            </div>
             <br>
             <br>
-            <main style="display:flex; flex-direction: column;">
         <div class="Kesan">
             <label class="Pesan" for="Pesan : "><b>Pesan & Kesan</b> :</label>
             <br>
@@ -56,11 +57,9 @@
         <div>
     <input type="submit" value="submit">
 </div>
-    <section>
-    </div>
-    <section style="display: flex;flex-direction: row; flex-wrap: 5;">
-        <div style="display: flex; flex: 1; align-content: end; justify-content: flex-end;"> 
-            <table style="border: 5px outset whitesmoke ;">
+</article>
+    <section style="display: flex;flex-direction: row;">
+                <table style="border: 5px outset whitesmoke ;">
             <div>
             <tr class="Judul">
                 <th>Nama</th>
@@ -78,7 +77,8 @@
             </td>
         </div>
         </table>
-</section>
+        </section>
+    </section>
 </main>
     </body>
 </html>

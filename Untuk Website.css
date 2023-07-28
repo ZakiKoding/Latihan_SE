@@ -49,8 +49,19 @@ p { color: aqua;
         justify-content: start; flex: 1;
         width: 400px;
         height: 360px;}
-table { margin-bottom: 500px;
-        float: left;
-        padding: 10px;}
-.Edit_Posisi {justify-content: space-between;
-              margin-top:space-around}
+table { display: flex;
+        gap: 20%;
+        flex-basis: 50%;
+        margin-bottom: 500px;
+        padding: 20px;}
+
+
+.coba{  display: flex;
+        gap: 40%;
+        flex-basis: 50%;;
+        border: 1px solid white;
+        justify-content: center;
+        padding-left: 200px}
+
+section {margin-top: 20px;
+        flex-basis: 50%;}
