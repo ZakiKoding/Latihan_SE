@@ -1,47 +1,238 @@
 /* Header Section*/
+body{ background-color: #008000;
+width: fit-content;}
 #HeaderNavigasi 
 { display: flex;
   justify-content: space-between;
-    border: 2px solid black;}
+
+  padding: 20px ;
+  background-color:#a52a2a;
+  border-radius: 20px;
+  border: 4px ridge black;
+  width: 96%;}
 
 #Navigasi 
 { display: flex;
   gap: 10px;  
-  background-color: brown;}
+  background-color: brown;
+  align-items: center;
+  font-size: 30px;}
 
+#Home {background-color: #008000;
+      padding: 5px;
+      border-radius: 10px;
+      text-decoration: none;
+      border: 2px solid black;
+      transition: 0.3s;}
+
+#Home:hover {opacity: 1;
+  background-color:white;}
+            
+
+#Call_Us {background-color: #008000;
+padding: 5px;
+border-radius: 10px;
+text-decoration: none;
+border: 2px solid black;
+transition: 0.3s;}
+
+#Call_Us:hover {opacity: 1;
+  background-color:white;}
+
+#Our_Package {background-color: #008000;
+padding: 5px;
+border-radius: 10px;
+text-decoration: none;
+border: 2px solid black;
+transition: 0.3s;}
+
+#Our_Package:hover {opacity: 1;
+  background-color:white;}
+
+  .Logo { width: 100px;
+  height: 80Px;}
+/* Flex : 1 ,Flex: 0 = untuk menentukan apakah item disesuaikan ke groupnya (0) atau ke kontainernya biar pas (1) */
+
+/*Header Title*/
 #Header_title 
 {   display: flex;
     flex-direction: column;
     align-items: center;}
+#Info_Store 
+{ color: black;
+  font-size: 50px;}
+#Quotes { color: gold;
+          font-size: 25px;}
 
 /* Main Section*/
 
 #Panggilan_Biase 
 {display: flex;
-gap: 40px;
-margin-top: 5% ;}
+  padding: 20px;
+  margin-left: 100px;
+  width: fit-content;
+  height: fit-content;
+gap: 50px;
+margin-top: 5% ;
+box-sizing: border-box;}
+
+
 
 article {
     display: flex;
-    flex-basis: 60%;
-    border: 2px solid black;
+    flex: 1;
+    height: 40%;
+    width: 60% ;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 2%;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 30px;
     justify-content: center;
-    align-items: center;}
+    border: 2px solid black;
+    background-color: brown;
+    }
 
+#Article {background-color: rgb(0, 0, 0);}
+
+  h5 { display: flex;
+      gap: 100%;
+      box-sizing: border-box;
+      font-size: 15px;
+    border: 1px solid black;
+    background-color: gold;
+    padding-inline:0%;
+    justify-content: center;
+    align-items: center;
+    }
 #Form {display: flex;
         flex-direction: column;
-        flex-basis: 50% ;
         border : 2px solid black;
         border-radius: 20px;
-        flex-basis:50% ;
-        justify-content: center;
+        height: 30%;
+        width: 35%;
+        justify-content:start;
         align-items: flex-start;
-        padding: 10px;
+        padding: 50px;
         background-color: brown;
-        color: black;}
+        color: black;
+        box-sizing: border-box;}
 
-.Subtittle {font-size: 16px;}
+.Subtittle { display: inline-flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 1px;}
 
-.Kontakeun {font-size: 36px;}
+.Title_Form {
+display: flex;
+color: black;
+font-size: 30px;}
 
-section {margin-top: 10px;}
+#kontak { display: flex;
+          padding-inline: 0px;
+          justify-content: flex-start ;
+          width: 200px;
+    color: black;
+        font-size: 30px;}
+#Marketting { 
+  font-size: 12px;
+  color: gold;
+  font-size: 18px;}
+  
+section {margin-top: 0px;}
+
+.Foto { display: flex;
+        height: 10%;
+        align-items: center ;
+        justify-content: center;
+      width: 100%;}
+
+  /* Isi komen */
+  .KOMEN {  display: flex;
+    width: 600px;
+    background-color:azure;
+    margin-left: 0%;
+    ;}
+
+  #isi_komen { 
+    display: flex;
+    justify-content: start;
+    color: black;
+    font-size: 15px;
+    justify-content: start;
+    margin-right: 5%;}
+    #Pelanggan 
+    { font-display: flex;  
+      color: black;
+                font-size: 23px;
+                align-items: center;}
+  
+    .Gambar_Nama {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 40px;
+    align-items: center;}
+
+    #gambar {width: 60px;
+    height: 50px;}
+
+  /*Information*/
+
+  #Information_list {
+    width: 600px;
+    display: flex;
+    background-color: white;
+    margin-left: 10%; 
+    margin-top: 10%; 
+    margin-right: 0%;
+    border: 10px outset black; 
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+    box-sizing: border-box;}
+
+    #Paragraf
+    { display: flex;
+      color: black;
+    justify-content: center;
+    align-items: center;}
+    
+/* Our Package Section*/
+
+
+#Bali { background-color: white ;
+  color: black;
+  transition: 0.3s;}
+#Bali:hover { opacity: 1;
+              background-color: khaki;
+            color: red;}
+#Jepang { background-color: white ;
+  transition: 0.3s;}
+#Jepang:hover { opacity: 1;
+              background-color: red;}
+#Korea { background-color: white ;
+        color: black;
+  transition: 0.3s;}
+#Korea:hover { opacity: 1;
+              background-color: rgb(0, 0, 255);
+              color: aliceblue;}
+ #Thailand { background-color: white ;
+                  color: black;
+            transition: 0.3s;}
+#Thailand:hover { opacity: 1;
+                        background-color: rgba(255, 0, 0, 0.623);
+                        color: blue;}
+#Arab-Saudi { background-color: white ;
+                        color: black;
+                  transition: 0.3s;}
+#Arab-Saudi:hover { opacity: 1;
+                              background-color: rgb(1, 90, 1);
+                              color: aliceblue;}
+#Inggris { background-color: white ;
+         color: black;
+         transition: 0.3s;}
+ #Inggris:hover { opacity: 1;
+   background-color: rgba(245, 245, 245, 0.921);
+                                      color: rgb(240, 16, 16);}
