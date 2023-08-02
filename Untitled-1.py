@@ -9,8 +9,6 @@
 #print(type(angka))
 #print(type(name))
 
-prit
-
 angka1 = 15
 angka2 = 10
 

@@ -127,8 +127,19 @@ class sapi(Hewan):
         self.type = types
 
 
-file = open("Coding.txt", "r")
-file.read()
+#file = open("Coding.txt", "r") file.read()f #
+J=1
+
+for i in range(0,10):
+    if J > 0:
+        print("oke")
+    if J == 5 - (J*2):
+        break
+    
+    
+        
+        
+
 
 
 

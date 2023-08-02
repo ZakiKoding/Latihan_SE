@@ -25,10 +25,15 @@
        </section>
     </header>
     <main>
+
+        </style>
         <section id = "Panggilan_Biase">
             <article style="background-color: #a52a2a;" id="Article">
             <div class="Brosur"></div>
-                <img class="Foto" src="https://www.halloriau.com/foto_berita/74traveling_alam.jpg" alt="Ini Toko Sayur">
+                <img style="width: 800px; height: 400px;" class="Foto-SlideShow" src="https://www.halloriau.com/foto_berita/74traveling_alam.jpg" alt="gambar 1">
+                <img style="width: 800px; height: 400px;"  class="Foto-SlideShow" src="https://www.gotravelaindonesia.com/wp-content/uploads/101-Tempat-Wisata-Populer-Di-Bali.jpg" alt="gambar 2">
+                <img style="width: 800px; height: 400px;" class="Foto-SlideShow" src="https://www.megainsurance.co.id/po-content/uploads/wisata_di_korea_selatan.jpg" alt="gambar 3">
+                <img style="width: 800px; height: 400px;" class="Foto-SlideShow" src="https://www.wisataku.id/wp-content/uploads/2018/01/0-11.jpg" alt="gambar 4">
                 <h5>Menyenangkan dan Berkesan</h5>
                 <br>
                 <article style="background-color: gainsboro;" class="KOMEN">
@@ -40,6 +45,22 @@
             </div>
                 </article>
             </article>
+            <script>
+            var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("Foto-SlideShow");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000);
+}
+            </script>
         <section name="Message-form" id="Form">
             <h3 class="Subtittle" id="kontak">Contact Us</h3>
             <h3 class="Subtittle" id="Marketting">Our team will inform you within 1x24 hours.</h3>
@@ -65,18 +86,20 @@
             <button style="width: 177px;" type="submit" class="submit">Submit</button>  
         </section>
         </section>
-    <script>
+        
+        <script>/*
         function validateform() {
            var name = document.forms["Message-form"]["Name"].value;
            var Email = document.forms["Message-form"]["Email"].value;
            var Interest = document.forms["Message-form"]["Interest-Customer"].value;
-        }
+        } 
+        
     console.log (name)
     if (name == "")
         {alert("Tolong isi nama dengan lengkap 🙏");
-        return false
-        }
-    </script>
+        return true
+        }*/
+    </script> 
     <br>
     <article id="Information_list">
         <p id="Paragraf" style="justify-content: flex-start;
@@ -108,6 +131,15 @@
         </ul>
     </div>
 </div>
-    </main>       
+    </main> 
+    <br>
+    <br> 
+<footer>
+    <div class="Closing-Argument">
+    <H6 style="font-size: 40px; text-align: center; margin-top: 400px;">Lihat dulu yu halaman terakhir ini </H6> <p style="text-align: center;font-size: 20px;"> Jika ingin bertanya lebih lanjut terkait Travel kami, anda bisa menghubngi Customer Service yang ada di bawah ini</p>
+        <a id="CS" href="https://www.workstreams.ai/solutions/customer-support/?gad=1&gclid=CjwKCAjw_aemBhBLEiwAT98FMrGImg2DQqcGom6C2EWrDBDo4TQYBNM61D7N2h1XiHhQkh3ruluEOhoCfZgQAvD_BwE" target="_blank" style="text-decoration: none;"> Call to Action</a>
+</div>
+
+</footer>     
 </body>
 </html>
